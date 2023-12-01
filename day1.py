@@ -1,4 +1,4 @@
-#do replace all on words in input file: 5838218 79
+#do replace all on words in input file: 5838218 798
 import re
 
 with open("input.txt") as f:
