@@ -7,6 +7,7 @@ with open("input.txt") as f:
 input_dict = {}
 i = 0
 for line in input:
+  #replace the regex with "(\d)" for part 1
   digits = re.findall("(one|two|three|four|five|six|seven|eight|nine|\d)", line)
   input_dict[i] = (digits[0], digits[len(digits)-1])
   i+=1
